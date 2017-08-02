@@ -1,0 +1,33 @@
+{
+  "name": "bytic/bouncer",
+  "type": "library",
+  "description": "Library for ACL used by Nip Framework",
+  "homepage": "https://github.com/ByTIC/Bouncer",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Gabriel Solomon",
+      "email": "hello@gabrielsolomon.ro"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "ByTIC\\Bouncer\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "ByTIC\\Bouncer\\Tests\\": "tests/src",
+      "ByTIC\\Bouncer\\Tests\\Fixtures\\": "tests/fixtures"
+    }
+  },
+  "require": {
+    "php": "^7.0",
+    "bytic/framework": "^1.0"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^3.0",
+    "phpunit/phpunit": "^6.2",
+    "mockery/mockery": "^0.9"
+  }
+}
